@@ -8,6 +8,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myCOMShopPS", "myCOMShop\my
 		{0F4A53C7-5DAB-44CC-9C73-371B81601D25} = {0F4A53C7-5DAB-44CC-9C73-371B81601D25}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myShopClient", "myShopClient\myShopClient.vcxproj", "{670B332C-40D9-4EBD-9384-C26715A262D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -20,6 +22,10 @@ Global
 		{0F4A53C7-5DAB-44CC-9C73-371B81601D25}.Release|Win32.Build.0 = Release|Win32
 		{D776C999-15D1-46B5-BE55-915D6F33768E}.Debug|Win32.ActiveCfg = Debug|Win32
 		{D776C999-15D1-46B5-BE55-915D6F33768E}.Release|Win32.ActiveCfg = Release|Win32
+		{670B332C-40D9-4EBD-9384-C26715A262D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{670B332C-40D9-4EBD-9384-C26715A262D1}.Debug|Win32.Build.0 = Debug|Win32
+		{670B332C-40D9-4EBD-9384-C26715A262D1}.Release|Win32.ActiveCfg = Release|Win32
+		{670B332C-40D9-4EBD-9384-C26715A262D1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

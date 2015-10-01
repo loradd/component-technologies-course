@@ -145,6 +145,7 @@
     <ResourceCompile Include="myCOMShop.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="myCOMShop.rgs" />
     <None Include="myShop.rgs" />
     <None Include="ReadMe.txt" />

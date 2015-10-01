@@ -65,6 +65,7 @@
     <None Include="myShop.rgs">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="myCOMShop.idl">
