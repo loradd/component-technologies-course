@@ -1,0 +1,40 @@
+// myCOMShop.idl : IDL source for myCOMShop
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (myCOMShop.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(22243DEA-865D-4838-A56C-C9032337E97F),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ImyShop : IDispatch{
+	[propget, id(1)] HRESULT Count([out, retval] LONG* pVal);
+	[id(2)] HRESULT getNameByIndex([in] LONG index, [out,retval] BSTR* name);
+	[id(3)] HRESULT getCostByIndex([in] LONG index, [out,retval] LONG* pVal);
+	[id(4)] HRESULT getCountByIndex([in] LONG index, [out,retval] LONG* pVal);
+	[id(5)] HRESULT buy([in] LONG index);
+};
+[
+	uuid(76A552C5-DC45-476A-AD23-EB68C438DCAA),
+	version(1.0),
+]
+library myCOMShopLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(F9E74E42-71C4-4D71-9158-F403A787B9BA)		
+	]
+	coclass myShop
+	{
+		[default] interface ImyShop;
+	};
+};
+
+import "shobjidl.idl";

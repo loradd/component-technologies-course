@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myCOMShop", "myCOMShop\myCOMShop.vcxproj", "{0F4A53C7-5DAB-44CC-9C73-371B81601D25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myCOMShopPS", "myCOMShop\myCOMShopPS.vcxproj", "{D776C999-15D1-46B5-BE55-915D6F33768E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F4A53C7-5DAB-44CC-9C73-371B81601D25} = {0F4A53C7-5DAB-44CC-9C73-371B81601D25}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F4A53C7-5DAB-44CC-9C73-371B81601D25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F4A53C7-5DAB-44CC-9C73-371B81601D25}.Debug|Win32.Build.0 = Debug|Win32
+		{0F4A53C7-5DAB-44CC-9C73-371B81601D25}.Release|Win32.ActiveCfg = Release|Win32
+		{0F4A53C7-5DAB-44CC-9C73-371B81601D25}.Release|Win32.Build.0 = Release|Win32
+		{D776C999-15D1-46B5-BE55-915D6F33768E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D776C999-15D1-46B5-BE55-915D6F33768E}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
